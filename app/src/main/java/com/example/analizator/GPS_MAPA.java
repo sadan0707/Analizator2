@@ -69,7 +69,7 @@ public class GPS_MAPA extends FragmentActivity implements OnMapReadyCallback, Lo
 */
         MapFragment mapa = (MapFragment) getFragmentManager().findFragmentById(R.id.fragment);
         mapa.getMapAsync(this);
-        mapa.
+
 
 
     }
