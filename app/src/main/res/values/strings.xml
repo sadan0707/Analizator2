@@ -8,5 +8,8 @@
     <string name="name_pomiary">Pomiary</string>
     <string name="name_bateryjka">Bateryjka</string>
     <string name="name_gps">GPS</string>
+    <string name="name_gps_mapa">MAPA GPS</string>
+    <string name="name_akcelerometr">Akcelerometr</string>
+    <string name="name_wifi">WiFi</string>
 
 </resources>

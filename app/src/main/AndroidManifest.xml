@@ -83,7 +83,25 @@
         <activity android:name=".GPS_MAPA"
             android:theme="@android:style/Theme.Holo"
             android:icon="@drawable/gps4_xxxhdpi"
-            android:label="@string/name_gps">
+            android:label="@string/name_gps_mapa">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Akcelerometr"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/ic_launcher_hxdpi"
+            android:label="@string/name_akcelerometr">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wifi"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/wifi3_xxxhdpi"
+            android:label="@string/name_wifi">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
 
