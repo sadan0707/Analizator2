@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\classes-3076fbd80892ae6420dcd021a432bc27b5ae6fd8.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\classes-9499b9c031586510cf433c9d80630fabd9d027a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\classes-81e2afc5913f894961b79fec230363e7972dc4dd.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-05119aa4340e0ae676da60b2c99e3329a2a7394d.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\classes-b0e44e881579df9feb5e47ce539ec2397eb40dea.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\classes-0276b9d8f086a5cfdd11fe4b05cad60994cce1ab.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-cc84e5dc14deb672c878e654b08c8d9f8302ac20.jar" />
+    </item>
+
+</items>
