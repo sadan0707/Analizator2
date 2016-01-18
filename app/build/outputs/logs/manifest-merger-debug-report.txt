@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< Updated upstream
 ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:2:1-112:12
+=======
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:2:1-112:12
+>>>>>>> Stashed changes
 	package
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml
@@ -67,6 +71,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\krzysiek\
 	android:name
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:22:22-64
 application
+<<<<<<< Updated upstream
 ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:25:5-110:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
@@ -74,6 +79,15 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\krzysiek\StudioProj
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+=======
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:25:5-110:19
+MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+>>>>>>> Stashed changes
 	android:label
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:28:9-41
 	android:allowBackup
@@ -155,12 +169,17 @@ ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidMani
 activity#com.example.analizator.GPS_MAPA
 ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:83:9-91:20
 	android:label
+<<<<<<< Updated upstream
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:86:13-50
+=======
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:86:13-50
+>>>>>>> Stashed changes
 	android:icon
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:85:13-50
 	android:theme
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:84:13-54
 	android:name
+<<<<<<< Updated upstream
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:83:19-43
 activity#com.example.analizator.Akcelerometr
 ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:92:9-100:20
@@ -182,6 +201,29 @@ ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidMani
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:102:13-54
 	android:name
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:101:19-43
+=======
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:83:19-43
+activity#com.example.analizator.Akcelerometr
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:92:9-100:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:95:13-54
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:94:13-55
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:93:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:92:19-47
+activity#com.example.analizator.Wifi
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:101:9-109:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:104:13-46
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:103:13-51
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:102:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:101:19-39
+>>>>>>> Stashed changes
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
 	android:name

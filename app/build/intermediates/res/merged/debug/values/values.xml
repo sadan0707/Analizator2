@@ -211,7 +211,10 @@
     <string name="name_gps_mapa">MAPA GPS</string>
     <string name="name_pomiary">Pomiary</string>
     <string name="name_wifi">WiFi</string>
+<<<<<<< Updated upstream
     <string name="name_zyroskop">Żyroskop</string>
+=======
+>>>>>>> Stashed changes
     <string name="title_activity_glowna">Glowna</string>
     <!-- From: file:/C:/Users/krzysiek/StudioProjects/Analizator2/app/src/main/res/values/styles.xml -->
     <eat-comment/>

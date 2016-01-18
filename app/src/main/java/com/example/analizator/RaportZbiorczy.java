@@ -1,22 +1,5 @@
 package com.example.analizator;
 
-import java.util.List;
-import java.util.Set;
-
-
-
-import android.telephony.CellIdentityLte;
-import android.telephony.CellInfo;
-import android.telephony.CellInfoGsm;
-import android.telephony.CellLocation;
-import android.telephony.CellSignalStrength;
-import android.telephony.CellSignalStrengthGsm;
-import android.telephony.CellSignalStrengthLte;
-import android.telephony.PhoneStateListener;
-import android.telephony.ServiceState;
-import android.telephony.SignalStrength;
-import android.telephony.TelephonyManager;
-import android.telephony.gsm.GsmCellLocation;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -27,17 +10,19 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.net.ConnectivityManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Parcelable;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.telephony.PhoneStateListener;
+import android.telephony.SignalStrength;
+import android.telephony.TelephonyManager;
+import android.telephony.gsm.GsmCellLocation;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import java.util.List;
+import java.util.Set;
 
 
-public class MainActivity extends Activity {
+public class RaportZbiorczy extends Activity {
 
 	
 	private static final String TextView = null;
@@ -241,7 +226,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_zbiorczy);
 		
 		
 		

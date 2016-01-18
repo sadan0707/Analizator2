@@ -97,9 +97,15 @@
             </intent-filter>
         </activity>
         <activity
+<<<<<<< Updated upstream
             android:name="com.example.analizator.Zyroskop"
             android:icon="@drawable/zyroskop2_xxxhdpi"
             android:label="@string/name_zyroskop"
+=======
+            android:name="com.example.analizator.Wifi"
+            android:icon="@drawable/wifi3_xxxhdpi"
+            android:label="@string/name_wifi"
+>>>>>>> Stashed changes
             android:theme="@android:style/Theme.Holo" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
