@@ -39,4 +39,9 @@ public class Pomiary extends Activity
 		Intent intent = new Intent(this, Wifi.class);
 		startActivity(intent);
 	}
+
+	public void przycisk_zyroskop(View view) {
+		Intent intent = new Intent(this, Zyroskop.class);
+		startActivity(intent);
+	}
 }

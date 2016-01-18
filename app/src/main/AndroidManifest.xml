@@ -98,10 +98,10 @@
 
             </intent-filter>
         </activity>
-        <activity android:name=".Wifi"
+        <activity android:name=".Zyroskop"
             android:theme="@android:style/Theme.Holo"
-            android:icon="@drawable/wifi3_xxxhdpi"
-            android:label="@string/name_wifi">
+            android:icon="@drawable/zyroskop2_xxxhdpi"
+            android:label="@string/name_zyroskop">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
 

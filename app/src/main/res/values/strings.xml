@@ -11,5 +11,6 @@
     <string name="name_gps_mapa">MAPA GPS</string>
     <string name="name_akcelerometr">Akcelerometr</string>
     <string name="name_wifi">WiFi</string>
+    <string name="name_zyroskop">Żyroskop</string>
 
 </resources>

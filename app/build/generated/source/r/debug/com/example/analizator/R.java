@@ -1091,13 +1091,11 @@ containing a value of this type.
         public static final int beginning=0x7f0b000d;
         public static final int button1=0x7f0b00d1;
         public static final int button10=0x7f0b00da;
-        public static final int button11=0x7f0b00db;
         public static final int button12=0x7f0b00dc;
         public static final int button13=0x7f0b00dd;
         public static final int button14=0x7f0b00de;
         public static final int button15=0x7f0b00df;
         public static final int button2=0x7f0b00d2;
-        public static final int button3=0x7f0b00d3;
         public static final int button4=0x7f0b00d4;
         public static final int button5=0x7f0b00d5;
         public static final int button6=0x7f0b00d6;
@@ -1159,6 +1157,8 @@ containing a value of this type.
         public static final int operatorName=0x7f0b00bd;
         public static final int progress_circular=0x7f0b003f;
         public static final int progress_horizontal=0x7f0b0040;
+        public static final int przycisk_akcelerometr=0x7f0b00d3;
+        public static final int przycisk_wifi=0x7f0b00db;
         public static final int przycisk_wyswietl_mape=0x7f0b0060;
         public static final int radio=0x7f0b0038;
         public static final int right_container=0x7f0b003d;
@@ -1320,13 +1320,15 @@ containing a value of this type.
         public static final int abc_screen=0x7f030015;
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
-        public static final int activity_bateryjka=0x7f030018;
-        public static final int activity_glowna=0x7f030019;
-        public static final int activity_gps=0x7f03001a;
-        public static final int activity_gps_mapa=0x7f03001b;
-        public static final int activity_main=0x7f03001c;
-        public static final int activity_pomiary=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
+        public static final int activity_akcelerometr=0x7f030018;
+        public static final int activity_bateryjka=0x7f030019;
+        public static final int activity_glowna=0x7f03001a;
+        public static final int activity_gps=0x7f03001b;
+        public static final int activity_gps_mapa=0x7f03001c;
+        public static final int activity_main=0x7f03001d;
+        public static final int activity_pomiary=0x7f03001e;
+        public static final int activity_wifi=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
         public static final int glowna=0x7f0c0000;
@@ -1380,10 +1382,13 @@ containing a value of this type.
         public static final int common_signin_button_text=0x7f05001b;
         public static final int common_signin_button_text_long=0x7f05001c;
         public static final int hello_world=0x7f05002e;
-        public static final int name_bateryjka=0x7f05002f;
-        public static final int name_gps=0x7f050030;
-        public static final int name_pomiary=0x7f050031;
-        public static final int title_activity_glowna=0x7f050032;
+        public static final int name_akcelerometr=0x7f05002f;
+        public static final int name_bateryjka=0x7f050030;
+        public static final int name_gps=0x7f050031;
+        public static final int name_gps_mapa=0x7f050032;
+        public static final int name_pomiary=0x7f050033;
+        public static final int name_wifi=0x7f050034;
+        public static final int title_activity_glowna=0x7f050035;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
