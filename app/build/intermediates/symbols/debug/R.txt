@@ -383,7 +383,6 @@ int id button13 0x7f0b00dd
 int id button14 0x7f0b00de
 int id button15 0x7f0b00df
 int id button2 0x7f0b00d2
-int id button4 0x7f0b00d4
 int id button5 0x7f0b00d5
 int id button6 0x7f0b00d6
 int id button7 0x7f0b00d7
@@ -447,6 +446,7 @@ int id progress_horizontal 0x7f0b0040
 int id przycisk_akcelerometr 0x7f0b00d3
 int id przycisk_wifi 0x7f0b00db
 int id przycisk_wyswietl_mape 0x7f0b0060
+int id przycisk_zyroskop 0x7f0b00d4
 int id radio 0x7f0b0038
 int id right_container 0x7f0b003d
 int id right_icon 0x7f0b003e
@@ -611,7 +611,8 @@ int layout activity_gps_mapa 0x7f03001c
 int layout activity_main 0x7f03001d
 int layout activity_pomiary 0x7f03001e
 int layout activity_wifi 0x7f03001f
-int layout support_simple_spinner_dropdown_item 0x7f030020
+int layout activity_zyroskop 0x7f030020
+int layout support_simple_spinner_dropdown_item 0x7f030021
 int menu glowna 0x7f0c0000
 int menu main 0x7f0c0001
 int string abc_action_bar_home_description 0x7f05001d
@@ -667,7 +668,8 @@ int string name_gps 0x7f050031
 int string name_gps_mapa 0x7f050032
 int string name_pomiary 0x7f050033
 int string name_wifi 0x7f050034
-int string title_activity_glowna 0x7f050035
+int string name_zyroskop 0x7f050035
+int string title_activity_glowna 0x7f050036
 int style AppBaseTheme 0x7f090000
 int style AppTheme 0x7f09003a
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f09003b

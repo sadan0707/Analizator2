@@ -1096,7 +1096,6 @@ containing a value of this type.
         public static final int button14=0x7f0b00de;
         public static final int button15=0x7f0b00df;
         public static final int button2=0x7f0b00d2;
-        public static final int button4=0x7f0b00d4;
         public static final int button5=0x7f0b00d5;
         public static final int button6=0x7f0b00d6;
         public static final int button7=0x7f0b00d7;
@@ -1160,6 +1159,7 @@ containing a value of this type.
         public static final int przycisk_akcelerometr=0x7f0b00d3;
         public static final int przycisk_wifi=0x7f0b00db;
         public static final int przycisk_wyswietl_mape=0x7f0b0060;
+        public static final int przycisk_zyroskop=0x7f0b00d4;
         public static final int radio=0x7f0b0038;
         public static final int right_container=0x7f0b003d;
         public static final int right_icon=0x7f0b003e;
@@ -1328,7 +1328,8 @@ containing a value of this type.
         public static final int activity_main=0x7f03001d;
         public static final int activity_pomiary=0x7f03001e;
         public static final int activity_wifi=0x7f03001f;
-        public static final int support_simple_spinner_dropdown_item=0x7f030020;
+        public static final int activity_zyroskop=0x7f030020;
+        public static final int support_simple_spinner_dropdown_item=0x7f030021;
     }
     public static final class menu {
         public static final int glowna=0x7f0c0000;
@@ -1388,7 +1389,8 @@ containing a value of this type.
         public static final int name_gps_mapa=0x7f050032;
         public static final int name_pomiary=0x7f050033;
         public static final int name_wifi=0x7f050034;
-        public static final int title_activity_glowna=0x7f050035;
+        public static final int name_zyroskop=0x7f050035;
+        public static final int title_activity_glowna=0x7f050036;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

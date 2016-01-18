@@ -172,16 +172,16 @@ ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidMani
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:93:13-54
 	android:name
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:92:19-47
-activity#com.example.analizator.Wifi
+activity#com.example.analizator.Zyroskop
 ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:101:9-109:20
 	android:label
-		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:104:13-46
+		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:104:13-50
 	android:icon
-		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:103:13-51
+		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:103:13-55
 	android:theme
 		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:102:13-54
 	android:name
-		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:101:19-39
+		ADDED from C:\Users\krzysiek\StudioProjects\Analizator2\app\src\main\AndroidManifest.xml:101:19-43
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
 	android:name
