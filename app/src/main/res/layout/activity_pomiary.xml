@@ -184,6 +184,7 @@
 
         <Button
             android:id="@+id/przycisk_system"
+            android:onClick="przycisk_system"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="0"
@@ -196,6 +197,7 @@
 
         <Button
             android:id="@+id/przycisk_nfc"
+            android:onClick="przycisk_nfc"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="1"
@@ -208,6 +210,7 @@
 
         <Button
             android:id="@+id/przycisk_bluetooth"
+            android:onClick="przycisk_bloetooth"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="2"

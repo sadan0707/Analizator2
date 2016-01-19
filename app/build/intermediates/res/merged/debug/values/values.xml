@@ -209,10 +209,12 @@
     <string name="name_akcelerometr">Akcelerometr</string>
     <string name="name_barometr">Barometr</string>
     <string name="name_bateryjka">Bateryjka</string>
+    <string name="name_bluetooth">Bluetooth</string>
     <string name="name_glosnosc">Glośność</string>
     <string name="name_gps">GPS</string>
     <string name="name_gps_mapa">MAPA GPS</string>
     <string name="name_igla_magnetyczna">Igła magnetyczna</string>
+    <string name="name_lacznosc">Sieć komórkowa</string>
     <string name="name_orientacja">Orientacja</string>
     <string name="name_oswietlenie">Oświetlenie</string>
     <string name="name_pomiary">Pomiary</string>

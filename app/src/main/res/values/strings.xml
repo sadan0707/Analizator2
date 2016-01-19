@@ -21,5 +21,7 @@
     <string name="name_oswietlenie">Oświetlenie</string>
     <string name="name_glosnosc">Glośność</string>
     <string name="name_termometr">Termometr</string>
+    <string name="name_lacznosc">Sieć komórkowa</string>
+    <string name="name_bluetooth">Bluetooth</string>
 
 </resources>

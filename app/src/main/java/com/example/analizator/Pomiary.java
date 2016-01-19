@@ -74,4 +74,19 @@ public class Pomiary extends Activity
 		Intent intent = new Intent(this, Lacznosc.class);
 		startActivity(intent);
 	}
+
+	public void przycisk_system(View view) {
+		Intent intent = new Intent(this, MojSystem.class);
+		startActivity(intent);
+	}
+
+	public void przycisk_nfc(View view) {
+		Intent intent = new Intent(this, NFC.class);
+		startActivity(intent);
+	}
+
+	public void przycisk_bloetooth(View view) {
+		Intent intent = new Intent(this, Bluetooth.class);
+		startActivity(intent);
+	}
 }

@@ -110,13 +110,95 @@
 
         <activity android:name=".IglaMagnetyczna"
             android:theme="@android:style/Theme.Holo"
-            android:icon="@drawable/zyroskop2_xxxhdpi"
+            android:icon="@drawable/magnes_xxxhdpi"
             android:label="@string/name_igla_magnetyczna">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
 
             </intent-filter>
         </activity>
+        <activity android:name=".Barometr"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/barometr_xxxhdpi"
+            android:label="@string/name_barometr">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Orientacja"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/kompas_xxxhdpi"
+            android:label="@string/name_orientacja">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Oswietlenie"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/swiatlo2_xxxhdpi"
+            android:label="@string/name_oswietlenie">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Temperatura"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/termometr2_xxhdpi"
+            android:label="@string/name_termometr">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Lacznosc"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/gsm_xxxhdpi"
+            android:label="@string/name_lacznosc">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wifi"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/wifi3_xxxhdpi"
+            android:label="@string/name_wifi">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".MojSystem"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/system2_xxxhdpi"
+            android:label="@string/name_system">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".NFC"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/nfc_xxxhdpi"
+            android:label="@string/name_NFC">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bluetooth"
+            android:theme="@android:style/Theme.Holo"
+            android:icon="@drawable/bluettoth2_xxxhdpi"
+            android:label="@string/name_bluetooth">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

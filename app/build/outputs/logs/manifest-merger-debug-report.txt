@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:2:1-122:12
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:2:1-204:12
 	package
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml
@@ -67,7 +67,7 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka
 	android:name
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:22:22-64
 application
-ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:25:5-120:19
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:25:5-202:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
@@ -187,11 +187,101 @@ ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidM
 	android:label
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:114:13-58
 	android:icon
-		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:113:13-55
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:113:13-52
 	android:theme
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:112:13-54
 	android:name
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:111:19-50
+activity#com.example.analizator.Barometr
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:120:9-128:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:123:13-50
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:122:13-54
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:121:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:120:19-43
+activity#com.example.analizator.Orientacja
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:129:9-137:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:132:13-52
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:131:13-52
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:130:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:129:19-45
+activity#com.example.analizator.Oswietlenie
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:138:9-146:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:141:13-53
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:140:13-54
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:139:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:138:19-46
+activity#com.example.analizator.Temperatura
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:147:9-155:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:150:13-51
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:149:13-55
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:148:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:147:19-46
+activity#com.example.analizator.Lacznosc
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:156:9-164:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:159:13-50
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:158:13-49
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:157:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:156:19-43
+activity#com.example.analizator.Wifi
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:165:9-173:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:168:13-46
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:167:13-51
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:166:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:165:19-39
+activity#com.example.analizator.MojSystem
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:174:9-182:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:177:13-48
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:176:13-53
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:175:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:174:19-44
+activity#com.example.analizator.NFC
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:183:9-191:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:186:13-45
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:185:13-49
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:184:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:183:19-38
+activity#com.example.analizator.Bluetooth
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:192:9-200:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:195:13-51
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:194:13-56
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:193:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:192:19-44
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
 	android:name

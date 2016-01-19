@@ -6,10 +6,9 @@ import android.os.Bundle;
 /**
  * Created by Surykatka on 2016-01-19.
  */
-public class Lacznosc extends Activity {
-    public void onCreate(Bundle savedInstanceState){
+public class MojSystem extends Activity {
+    public void onClick(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lacznosc);
+        setContentView(R.layout.activity_system);
     }
-
 }
