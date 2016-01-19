@@ -13,5 +13,13 @@
     <string name="name_akcelerometr">Akcelerometr</string>
     <string name="name_wifi">WiFi</string>
     <string name="name_zyroskop">Żyroskop</string>
+    <string name="name_igla_magnetyczna">Igła magnetyczna</string>
+    <string name="name_NFC">NFC</string>
+    <string name="name_system">System</string>
+    <string name="name_barometr">Barometr</string>
+    <string name="name_orientacja">Orientacja</string>
+    <string name="name_oswietlenie">Oświetlenie</string>
+    <string name="name_glosnosc">Glośność</string>
+    <string name="name_termometr">Termometr</string>
 
 </resources>

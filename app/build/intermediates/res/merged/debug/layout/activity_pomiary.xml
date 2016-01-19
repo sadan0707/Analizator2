@@ -71,7 +71,8 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/przycisk_igla_magnetyczna"
+            android:onClick="przycisk_igla_magnetyczna"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="1"
@@ -84,7 +85,8 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/przycisk_orientacja"
+            android:onClick="przycisk_orienntacja"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="2"
@@ -96,7 +98,8 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/przycisk_temp"
+            android:onClick="przycisk_temp"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="0"
@@ -110,7 +113,8 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/przycisk_oswietlenie"
+            android:onClick="przycisk_oswietlenie"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="1"
@@ -123,7 +127,8 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/przycisk_barometr"
+            android:onClick="przycisk_barometr"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="2"
@@ -135,7 +140,8 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/przycisk_lacznosc"
+            android:onClick="przycisk_lacznosc"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="0"
@@ -164,7 +170,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/przcisk_gps"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="2"
@@ -177,7 +183,7 @@
             android:onClick="PrzyciskGPS"/>
 
         <Button
-            android:id="@+id/button13"
+            android:id="@+id/przycisk_system"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="0"
@@ -189,7 +195,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button14"
+            android:id="@+id/przycisk_nfc"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="1"
@@ -201,7 +207,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button15"
+            android:id="@+id/przycisk_bluetooth"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_column="2"
@@ -219,4 +225,4 @@
     </GridLayout>
 
 </ScrollView>
-<!-- From: file:/C:/Users/krzysiek/StudioProjects/Analizator2/app/src/main/res/layout/activity_pomiary.xml -->
+<!-- From: file:/C:/Users/Surykatka/Documents/GitHub/Analizator2/app/src/main/res/layout/activity_pomiary.xml -->

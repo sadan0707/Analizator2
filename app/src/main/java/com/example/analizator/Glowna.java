@@ -21,7 +21,7 @@ public class Glowna extends Activity {
 	}
 	
 	public void PrzyciskZarejestrowane(View arg0) {
-		Intent intent = new Intent(this, MainActivity.class);
+		Intent intent = new Intent(this, RaportZbiorczy.class);
 		startActivity(intent);
 	}
 	

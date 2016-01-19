@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="18"
         android:targetSdkVersion="19" />
 
     <uses-feature
@@ -37,7 +37,7 @@
 
         <activity
             android:name="com.example.analizator.Glowna"
-            android:label="@string/title_activity_glowna" >
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -45,8 +45,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.analizator.MainActivity"
-            android:label="@string/app_name" >
+            android:name="com.example.analizator.RaportZbiorczy"
+            android:label="@string/name_zbiorczy" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -97,15 +97,18 @@
             </intent-filter>
         </activity>
         <activity
-<<<<<<< Updated upstream
             android:name="com.example.analizator.Zyroskop"
             android:icon="@drawable/zyroskop2_xxxhdpi"
             android:label="@string/name_zyroskop"
-=======
-            android:name="com.example.analizator.Wifi"
-            android:icon="@drawable/wifi3_xxxhdpi"
-            android:label="@string/name_wifi"
->>>>>>> Stashed changes
+            android:theme="@android:style/Theme.Holo" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.analizator.IglaMagnetyczna"
+            android:icon="@drawable/zyroskop2_xxxhdpi"
+            android:label="@string/name_igla_magnetyczna"
             android:theme="@android:style/Theme.Holo" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
