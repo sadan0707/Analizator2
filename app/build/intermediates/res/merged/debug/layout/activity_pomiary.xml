@@ -150,7 +150,7 @@
             android:layout_row="4"
             android:background="@drawable/gsm_xxxhdpi"
             android:gravity="bottom|center_horizontal"
-            android:text="Łączność"
+            android:text="@string/name_lacznosc"
             android:textSize="12dp"
             android:textStyle="bold" />
 
@@ -204,7 +204,7 @@
             android:layout_row="5"
             android:background="@drawable/nfc_xxxhdpi"
             android:gravity="bottom|center_horizontal"
-            android:text="NFC"
+            android:text="@string/name_NFC"
             android:textSize="12dp"
             android:textStyle="bold" />
 
@@ -217,7 +217,7 @@
             android:layout_row="5"
             android:background="@drawable/bluettoth2_xxxhdpi"
             android:gravity="bottom|center_horizontal"
-            android:text="Bluetooth"
+            android:text="@string/name_bluetooth"
             android:textSize="12dp"
             android:textStyle="bold" />
 

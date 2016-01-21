@@ -1321,7 +1321,7 @@ containing a value of this type.
         public static final int abc_screen=0x7f030015;
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
-        public static final int acticity_igla_magnetyczna=0x7f030018;
+        public static final int activity_igla_magnetyczna =0x7f030018;
         public static final int activity_akcelerometr=0x7f030019;
         public static final int activity_barometr=0x7f03001a;
         public static final int activity_bateryjka=0x7f03001b;

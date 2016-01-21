@@ -4,11 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 
 /**
- * Created by Surykatka on 2016-01-19.
+ * Created by Surykatka on 2016-01-21.
  */
-public class IglaMagnetyczna extends Activity {
+public class Glosnosc extends Activity{
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_igla_magnetyczna);
+        setContentView(R.layout.activity_glosnosc);
     }
 }

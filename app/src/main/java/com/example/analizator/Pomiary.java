@@ -89,4 +89,9 @@ public class Pomiary extends Activity
 		Intent intent = new Intent(this, Bluetooth.class);
 		startActivity(intent);
 	}
+
+	public void przycisk_glosnosc(View view) {
+		Intent intent = new Intent(this, Glosnosc.class);
+		startActivity(intent);
+	}
 }
