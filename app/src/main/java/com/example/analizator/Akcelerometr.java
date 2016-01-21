@@ -47,5 +47,20 @@ public class Akcelerometr extends Activity {
         akcel_punktyY.setColor(Color.RED);
         graf.addSeries(akcel_punktyY);
 
+        LineGraphSeries<DataPoint> akcel_punktyZ = new LineGraphSeries<DataPoint>
+                (new DataPoint[]{
+                        new DataPoint(0,4),
+                        new DataPoint(0.5,1.75),
+                        new DataPoint(1,1.6),
+                        new DataPoint(1.5,3),
+                        new DataPoint(2, -2.1),
+                        new DataPoint(2.5,2.9),
+                        new DataPoint(3,2.2),
+                        new DataPoint(3.5,-2.25),
+                        new DataPoint(4,2.52)
+                });
+        akcel_punktyZ.setColor(Color.GREEN);
+        graf.addSeries(akcel_punktyZ);
+
     }
 }
