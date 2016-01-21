@@ -10,7 +10,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:layout_width="180"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Dostepność czujnika:"
@@ -97,7 +97,6 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Rejestr"
-            android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
             android:id="@+id/textView57" />
     </LinearLayout>
@@ -105,6 +104,10 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="250dp">
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/graf_akcelerometr" />
 
     </FrameLayout>
 
@@ -121,7 +124,7 @@
             android:id="@+id/button" />
 
         <Button
-            android:layout_width="100"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="Stop"
             android:id="@+id/button3" />

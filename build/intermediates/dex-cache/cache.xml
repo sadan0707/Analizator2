@@ -2,53 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\classes-0aac7b15e348f5cc5f6fe2bfa969415038fc9e46.jar" />
-    </item>
-    <item
-        jar="C:\Users\Surykatka\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-3ab7b02248b6410c2240e2f89e7454aab0bc5985.jar" />
-    </item>
-    <item
-        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\classes-3570c5fa6372af80ec4671afd79b7697e30115d9.jar" />
-    </item>
-    <item
-        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\classes-328e1b21a68e11ad07f9c04fe850743d0b21888c.jar" />
-    </item>
-    <item
-        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\classes-b6a1c4c23dd49cec877189d86fa36cc02e8a4338.jar" />
-    </item>
-    <item
-        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\classes-1a46c2f143e1e1aab7a3ff3c3466e6d411b60e56.jar" />
-    </item>
-    <item
-        jar="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-e9a9d30ba7ad9f4d09f9fbcda71b94446ec33c82.jar" />
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\pre-dexed\debug\classes-94723f5b1abb8b7e8a7f1b20fff0e7783122ebb3.jar" />
     </item>
 
 </items>

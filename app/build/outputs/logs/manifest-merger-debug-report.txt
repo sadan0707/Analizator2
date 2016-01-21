@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:2:1-204:12
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:2:1-215:12
 	package
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml
@@ -21,6 +21,8 @@ MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.jjoe64:graphview:4.0.1] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:9:9-38
@@ -67,12 +69,14 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka
 	android:name
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:22:22-64
 application
-ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:25:5-202:19
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:25:5-213:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.jjoe64:graphview:4.0.1] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:support-v4:23.0.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:28:9-41
@@ -273,15 +277,25 @@ ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:183:19-38
 activity#com.example.analizator.Bluetooth
-ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:192:9-200:20
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:193:9-201:20
 	android:label
-		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:195:13-51
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:196:13-51
 	android:icon
-		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:194:13-56
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:195:13-56
 	android:theme
-		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:193:13-54
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:194:13-54
 	android:name
-		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:192:19-44
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:193:19-44
+activity#com.example.analizator.Glosnosc
+ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:203:9-211:20
+	android:label
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:206:13-50
+	android:icon
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:205:13-55
+	android:theme
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:204:13-54
+	android:name
+		ADDED from C:\Users\Surykatka\Documents\GitHub\Analizator2\app\src\main\AndroidManifest.xml:203:19-43
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Surykatka\Documents\GitHub\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
 	android:name
