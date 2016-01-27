@@ -35,7 +35,7 @@ public class RaportZbiorczy extends Activity {
 	private float zAccel;
 	
 	private float xPoprzedniAccel;
-	private float yPoprzedniAccel;
+ 		private float yPoprzedniAccel;
 	private float zPoprzedniAccel;
 	
 	private float xNowyAccel;

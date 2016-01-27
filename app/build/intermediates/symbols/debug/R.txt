@@ -396,6 +396,7 @@ int id dark 0x7f0b001f
 int id default_activity_button 0x7f0b0031
 int id dialog 0x7f0b0021
 int id disableHome 0x7f0b0007
+int id dostepAkcelerometr 0x7f0b004e
 int id dostepnoscAkcelerometr 0x7f0b0088
 int id dostepnoscCisnienie 0x7f0b00c9
 int id dostepnoscIgla 0x7f0b00b9
@@ -571,14 +572,10 @@ int id textView42 0x7f0b00ed
 int id textView43 0x7f0b004d
 int id textView44 0x7f0b00f0
 int id textView45 0x7f0b006e
-int id textView46 0x7f0b004e
 int id textView47 0x7f0b004f
-int id textView48 0x7f0b0050
 int id textView49 0x7f0b0051
 int id textView5 0x7f0b0094
-int id textView50 0x7f0b0052
 int id textView51 0x7f0b0053
-int id textView52 0x7f0b0054
 int id textView53 0x7f0b0059
 int id textView54 0x7f0b005a
 int id textView55 0x7f0b005b
@@ -595,10 +592,13 @@ int id up 0x7f0b002a
 int id useLogo 0x7f0b000c
 int id wide 0x7f0b001d
 int id withText 0x7f0b001a
+int id x2Accel 0x7f0b0050
 int id xAccel 0x7f0b008b
 int id xOrient 0x7f0b0098
+int id y2Accel 0x7f0b0052
 int id yAccel 0x7f0b008e
 int id yOrient 0x7f0b009b
+int id z2Accel 0x7f0b0054
 int id zAccel 0x7f0b0091
 int id zOrient 0x7f0b009e
 int integer abc_max_action_buttons 0x7f080000

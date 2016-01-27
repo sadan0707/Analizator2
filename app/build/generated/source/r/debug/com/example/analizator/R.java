@@ -1138,6 +1138,7 @@ containing a value of this type.
         public static final int default_activity_button=0x7f0b0031;
         public static final int dialog=0x7f0b0021;
         public static final int disableHome=0x7f0b0007;
+        public static final int dostepAkcelerometr=0x7f0b004e;
         public static final int dostepnoscAkcelerometr=0x7f0b0088;
         public static final int dostepnoscCisnienie=0x7f0b00c9;
         public static final int dostepnoscIgla=0x7f0b00b9;
@@ -1313,14 +1314,10 @@ containing a value of this type.
         public static final int textView43=0x7f0b004d;
         public static final int textView44=0x7f0b00f0;
         public static final int textView45=0x7f0b006e;
-        public static final int textView46=0x7f0b004e;
         public static final int textView47=0x7f0b004f;
-        public static final int textView48=0x7f0b0050;
         public static final int textView49=0x7f0b0051;
         public static final int textView5=0x7f0b0094;
-        public static final int textView50=0x7f0b0052;
         public static final int textView51=0x7f0b0053;
-        public static final int textView52=0x7f0b0054;
         public static final int textView53=0x7f0b0059;
         public static final int textView54=0x7f0b005a;
         public static final int textView55=0x7f0b005b;
@@ -1337,10 +1334,13 @@ containing a value of this type.
         public static final int useLogo=0x7f0b000c;
         public static final int wide=0x7f0b001d;
         public static final int withText=0x7f0b001a;
+        public static final int x2Accel=0x7f0b0050;
         public static final int xAccel=0x7f0b008b;
         public static final int xOrient=0x7f0b0098;
+        public static final int y2Accel=0x7f0b0052;
         public static final int yAccel=0x7f0b008e;
         public static final int yOrient=0x7f0b009b;
+        public static final int z2Accel=0x7f0b0054;
         public static final int zAccel=0x7f0b0091;
         public static final int zOrient=0x7f0b009e;
     }
