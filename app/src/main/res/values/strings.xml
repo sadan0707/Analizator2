@@ -23,6 +23,8 @@
     <string name="name_termometr">Termometr</string>
     <string name="name_lacznosc">Sieć komórkowa</string>
     <string name="name_bluetooth">Bluetooth</string>
+    <string name="text_dostepnosc_czujnika">Dostępność czujnika:</string>
+    <string name="odczyt">Odczyt:</string>
 
 
 </resources>

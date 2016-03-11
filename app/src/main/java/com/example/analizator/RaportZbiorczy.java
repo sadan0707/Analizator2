@@ -6,6 +6,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -25,7 +26,7 @@ import java.util.Set;
 public class RaportZbiorczy extends Activity {
 
 	
-	private static final String TextView = null;
+	//private static final String TextView = null;
 	boolean sensorAkcelPresent, sensorOrientPresent, sensorTempPresent, sensorLightPresent, 
 			sensorCisnieniePresent, sensorZyroskopPresent, sensorIglaPresent;
 	SensorManager managerSensorow;
@@ -221,7 +222,7 @@ public class RaportZbiorczy extends Activity {
 			
 		}
 	};
-	
+
 	@TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -252,10 +253,13 @@ public class RaportZbiorczy extends Activity {
 		
 		if(sensorAkcelPresent) {
 			dostepnoscAkcel.setText("DOSTĘPNY");
+			dostepnoscAkcel.setTextColor(Color.GREEN);
 						
 		}
-		else
+		else {
 			dostepnoscAkcel.setText("NIE DOSTĘPNY");
+			dostepnoscAkcel.setTextColor(Color.RED);
+		}
 		
 		managerSensorow.registerListener(mojSluchaczSensorowAkcel, 
 				managerSensorow.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), 
@@ -281,11 +285,13 @@ public class RaportZbiorczy extends Activity {
 		
 		if(sensorOrientPresent) {
 			dostepnoscOrient.setText("DOSTĘPNY");
+			dostepnoscOrient.setTextColor(Color.GREEN);
 						
 		}
-		else
+		else {
 			dostepnoscOrient.setText("NIE DOSTĘPNY");
-		
+			dostepnoscOrient.setTextColor(Color.RED);
+		}
 		
 		managerSensorow.registerListener(mojSluchaczSensorowOrient, 
 				managerSensorow.getDefaultSensor(Sensor.TYPE_ORIENTATION),
@@ -308,9 +314,12 @@ public class RaportZbiorczy extends Activity {
 		
 		if(sensorTempPresent) {
 			dostepnoscTemp.setText("DOSTĘPNY");
+			dostepnoscTemp.setTextColor(Color.GREEN);
 		}
-		else
+		else {
 			dostepnoscTemp.setText("NIE DOSTĘPNY");
+			dostepnoscTemp.setTextColor(Color.RED);
+		}
 		
 		managerSensorow.registerListener(mojSluchaczSensorowTemp, 
 				managerSensorow.getDefaultSensor(Sensor.TYPE_TEMPERATURE),
@@ -319,7 +328,7 @@ public class RaportZbiorczy extends Activity {
 		
 		/* <<<<  CZUJNIK �WIAT�A >>>> */
 		
-List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LIGHT);
+	List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LIGHT);
 		
 		Sensor sensorLight = null;
 		
@@ -334,9 +343,12 @@ List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LI
 		
 		if(sensorLightPresent) {
 			dostepnoscSwiatlo.setText("DOSTĘPNY");
+			dostepnoscSwiatlo.setTextColor(Color.GREEN);
 		}
-		else
+		else {
 			dostepnoscSwiatlo.setText("NIE DOSTĘPNY");
+			dostepnoscSwiatlo.setTextColor(Color.RED);
+		}
 		
 		managerSensorow.registerListener(mojSluchaczSensorowSwiatlo, 
 				managerSensorow.getDefaultSensor(Sensor.TYPE_LIGHT),
@@ -357,10 +369,12 @@ List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LI
 	
 	if (sensorCisnieniePresent) {
 		dostepnoscCisnienie.setText("DOSTĘPNY");
+		dostepnoscCisnienie.setTextColor(Color.GREEN);
 	}
-	else
+	else {
 		dostepnoscCisnienie.setText("NIE DOSTĘPNY");
-	
+		dostepnoscCisnienie.setTextColor(Color.RED);
+	}
 	managerSensorow.registerListener(mojSluchaczSesnorowCisnienia, 
 			managerSensorow.getDefaultSensor(Sensor.TYPE_PRESSURE), 
 			SensorManager.SENSOR_DELAY_NORMAL);
@@ -420,7 +434,7 @@ List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LI
 	
 	int cellIdGSM = gsmCellLoc.getCid();
 	TextView TextCellId = (TextView) findViewById(R.id.cellId);
-	TextCellId.setText(cellIdGSM+"");
+	TextCellId.setText(cellIdGSM + "");
 	
 	int lacGSM = gsmCellLoc.getLac();
 	TextView TextlacGsm = (TextView) findViewById(R.id.LAC);
@@ -456,9 +470,19 @@ List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LI
          silaSyg.setText(silaGsmDbm+" [dBm] / "+silaGsmAsu+ " [asu]");
       }
     }
-      
-      MyPhoneStateListener MyListener = new MyPhoneStateListener();
-      telManager.listen(MyListener, PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);
+
+
+
+		//CellInfoLte LTE = (CellInfoLte)telManager.getAllCellInfo().get(0);
+		//CellSignalStrengthLte cellSignalStrengthLte = LTE.getCellSignalStrength();
+		//int silaLTE = cellSignalStrengthLte.getDbm();
+
+		//TextView silaLTEText = (TextView)findViewById(R.id.silaSygnaluLTE);
+		//silaLTEText.setText("" + silaLTE);
+
+
+
+
 	
      
       /* <<<<  KARTA SIM >>>> */
@@ -513,17 +537,16 @@ List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LI
       
       /* <<<<  GPS >>>> */
 
-   
-	
+
+
 	
 	}
 
 
-
-	
-
-	
 	
 	
 	
 }
+
+
+

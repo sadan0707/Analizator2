@@ -11,4 +11,7 @@ public class Orientacja extends Activity {
         super.onCreate(savedIntanceState);
         setContentView(R.layout.activity_orientacja);
     }
+
+
+
 }
