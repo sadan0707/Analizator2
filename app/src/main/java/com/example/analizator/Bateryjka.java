@@ -1,7 +1,6 @@
 package com.example.analizator;
 
 
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,6 +8,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.BatteryManager;
 import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
+import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -29,8 +31,27 @@ public class Bateryjka  extends Activity {
 				
 				int  level= intent.getIntExtra(BatteryManager.EXTRA_LEVEL,0);
 				ImageView bateryjka = (ImageView) findViewById(R.id.imageView1);
-				txt_poziom_baterii.setText(level+" %");
-				
+				ImageView strzalka = (ImageView) findViewById(R.id.imageView3);
+				txt_poziom_baterii.setText(level + " %");
+
+				RotateAnimation animacja_rotacja_lewo = new RotateAnimation(0.0f, -360.0f, Animation.RELATIVE_TO_SELF,0.5f,Animation.RELATIVE_TO_SELF, 0.5f);
+				animacja_rotacja_lewo.setInterpolator(new LinearInterpolator());
+				animacja_rotacja_lewo.setRepeatCount(Animation.INFINITE);
+				animacja_rotacja_lewo.setRepeatMode(Animation.REVERSE);
+				animacja_rotacja_lewo.setDuration(2000);
+
+				RotateAnimation animacja_rotacja_prawo = new RotateAnimation(0.0f, 360.0f, Animation.RELATIVE_TO_SELF,0.5f,Animation.RELATIVE_TO_SELF, 0.5f);
+				animacja_rotacja_prawo.setInterpolator(new LinearInterpolator());
+				animacja_rotacja_prawo.setRepeatCount(Animation.INFINITE);
+				animacja_rotacja_prawo.setRepeatMode(Animation.REVERSE);
+				animacja_rotacja_prawo.setDuration(2000);
+
+
+				bateryjka.startAnimation(animacja_rotacja_lewo);
+				strzalka.startAnimation(animacja_rotacja_prawo);
+
+
+
 				/*if (level >=90)
 					{			
 					bateryjka.setImageResource(R.drawable.bateryjka_70_druga_wersja);
@@ -45,7 +66,7 @@ public class Bateryjka  extends Activity {
 	 
 				*/
 				
-				switch (level) {
+				/*switch (level) {
 				case 1:		bateryjka.setImageResource(R.drawable.beteryjka_5); break;
 				case 2:		bateryjka.setImageResource(R.drawable.beteryjka_5); break;
 				case 3:		bateryjka.setImageResource(R.drawable.beteryjka_5); break;
@@ -146,9 +167,9 @@ public class Bateryjka  extends Activity {
 				case 98:	bateryjka.setImageResource(R.drawable.beteryjka_90); break;
 				case 99:	bateryjka.setImageResource(R.drawable.beteryjka_90); break;
 				case 100:	bateryjka.setImageResource(R.drawable.beteryjka_90); break;
-				
+
 					
-				}
+				} */
 			}
 		};
 

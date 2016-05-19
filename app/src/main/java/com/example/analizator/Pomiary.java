@@ -51,20 +51,7 @@ public class Pomiary extends Activity {
 			przycisk_temp.setClickable(false);
 		}
 
-		//TextView dostepnoscTemp = (TextView) findViewById(R.id.dostepnoscTemp);
-		//
-		//if(sensorTempPresent) {
-		//	dostepnoscTemp.setText("DOSTĘPNY");
-		//	dostepnoscTemp.setTextColor(Color.GREEN);
-		//}
-		//else {
-		//	dostepnoscTemp.setText("NIE DOSTĘPNY");
-		//	dostepnoscTemp.setTextColor(Color.RED);
-		//}
-		//
-		managerSensorow.registerListener(mojSluchaczSensorowTemp,
-				managerSensorow.getDefaultSensor(Sensor.TYPE_TEMPERATURE),
-				SensorManager.SENSOR_DELAY_FASTEST);
+
 
 	}
 
@@ -82,7 +69,6 @@ public class Pomiary extends Activity {
 		@Override
 		public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
-
 		}
 	};
 	
@@ -93,7 +79,7 @@ public class Pomiary extends Activity {
 		}
 	
 	public void PrzyciskZbiorczy(View arg0) {
-		Intent intent = new Intent(this, RaportZbiorczy.class);
+		Intent intent = new Intent(this, RaportZbiorczyGlowny.class);
 		startActivity(intent);
 	}
 

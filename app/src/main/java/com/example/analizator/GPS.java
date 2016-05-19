@@ -14,15 +14,27 @@ import android.widget.Toast;
 /**
  * Created by Surykatka on 2016-01-06.
  */
-public class GPS extends Activity {
+public class GPS extends Activity implements LocationListener {
+
+
 
     LocationListener locationListener;
     LocationManager managerLokalizacji;
 
+    public GPS() {
+
+    }
 
 
 
-    public class MojSluchaczLokalizacji implements LocationListener {
+
+    //public class MojSluchaczLokalizacji implements LocationListener {
+
+        private double dlugosc;
+        private double szerokosc;
+
+      //  public MojSluchaczLokalizacji() {
+      //  }
 
         @Override
         public void onLocationChanged(Location location) {
@@ -62,7 +74,7 @@ public class GPS extends Activity {
         public void onProviderDisabled(String provider) {
 
         }
-    }
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,7 +85,7 @@ public class GPS extends Activity {
         Location location = new Location(LocationManager.GPS_PROVIDER);
 
 
-        locationListener = new MojSluchaczLokalizacji();
+        locationListener = new GPS();
         locationListener.onLocationChanged(location);
         managerLokalizacji.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 
@@ -87,7 +99,7 @@ public class GPS extends Activity {
         Location location = new Location(LocationManager.GPS_PROVIDER);
 
 
-        locationListener = new MojSluchaczLokalizacji();
+        locationListener = new GPS();
         locationListener.onLocationChanged(location);
         managerLokalizacji.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 
@@ -106,7 +118,7 @@ public class GPS extends Activity {
         Location location = new Location(LocationManager.NETWORK_PROVIDER);
 
 
-        locationListener = new MojSluchaczLokalizacji();
+        locationListener = new GPS();
         locationListener.onLocationChanged(location);
         managerLokalizacji.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
 
