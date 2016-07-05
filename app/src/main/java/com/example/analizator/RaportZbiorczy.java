@@ -8,9 +8,6 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.telephony.CellInfo;
 import android.telephony.CellInfoCdma;
 import android.telephony.CellInfoGsm;
@@ -35,21 +32,21 @@ public class RaportZbiorczy extends Activity {
 
 	private static final String T = "TAG";
 	//private static final String TextView = null;
-	boolean sensorAkcelPresent, sensorOrientPresent, sensorTempPresent, sensorLightPresent,
-			sensorCisnieniePresent, sensorZyroskopPresent, sensorIglaPresent;
+	boolean sensorAkcelPresent,
+			sensorOrientPresent,
+			sensorTempPresent,
+			sensorLightPresent,
+			sensorCisnieniePresent,
+			sensorZyroskopPresent,
+			sensorIglaPresent;
+
 	SensorManager managerSensorow;
 
-	private float xAccel;
-	private float yAccel;
-	private float zAccel;
+	private float xAccel, yAccel, zAccel;
 
-	private float xPoprzedniAccel;
- 		private float yPoprzedniAccel;
-	private float zPoprzedniAccel;
+	private float xPoprzedniAccel, yPoprzedniAccel, zPoprzedniAccel;
 
-	private float xNowyAccel;
-	private float yNowyAccel;
-	private float zNowyAccel;
+	private float xNowyAccel, yNowyAccel, zNowyAccel;
 
 	private boolean pierwszyPomiar = true;
 
@@ -327,7 +324,7 @@ public class RaportZbiorczy extends Activity {
 				SensorManager.SENSOR_DELAY_FASTEST);
 		
 		
-		/* <<<<  CZUJNIK �WIAT�A >>>> */
+		/* <<<<  CZUJNIK SWIATLA >>>> */
 
 		List<Sensor> listaSensorowSwiatla = managerSensorow.getSensorList(Sensor.TYPE_LIGHT);
 
@@ -353,7 +350,7 @@ public class RaportZbiorczy extends Activity {
 				managerSensorow.getDefaultSensor(Sensor.TYPE_LIGHT),
 				SensorManager.SENSOR_DELAY_NORMAL);
 		
-		/* <<<<  CZUJNIK CI�NIENIA >>>> */
+		/* <<<<  CZUJNIK CISNIENIA - BAROMETR >>>> */
 
 		List<Sensor> listaSensorowCisnienia = managerSensorow.getSensorList(Sensor.TYPE_PRESSURE);
 		Sensor sensorCisnienie = null;
@@ -376,7 +373,7 @@ public class RaportZbiorczy extends Activity {
 				managerSensorow.getDefaultSensor(Sensor.TYPE_PRESSURE),
 				SensorManager.SENSOR_DELAY_NORMAL);
 	
-	/* <<<<  CZUJNIK �YROSKOP >>>> */
+	/* <<<<  ZYROSKOP >>>> */
 
 		List<Sensor> listaSensorowZyroskop = managerSensorow.getSensorList(Sensor.TYPE_GYROSCOPE);
 		Sensor sensorZyroskop = null;
@@ -397,7 +394,7 @@ public class RaportZbiorczy extends Activity {
 				managerSensorow.getDefaultSensor(Sensor.TYPE_GYROSCOPE),
 				SensorManager.SENSOR_DELAY_NORMAL);
 	
-	/* <<<<  CZUJNIK IGLA MAGNETYCZNA >>>> */
+	/* <<<<  IGLA MAGNETYCZNA >>>> */
 
 		List<Sensor> listaSensorowIgla = managerSensorow.getSensorList(Sensor.TYPE_MAGNETIC_FIELD);
 		Sensor sensorIgla = null;
@@ -419,7 +416,7 @@ public class RaportZbiorczy extends Activity {
 				SensorManager.SENSOR_DELAY_NORMAL);
 	
 	
-	/* <<<<  ��CZNO�� GSM / WCDMA / LTE >>>> */
+	/* <<<<  LOCZNOSC GSM / WCDMA / LTE >>>> */
 
 		final TelephonyManager telManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
@@ -544,15 +541,15 @@ public class RaportZbiorczy extends Activity {
       /* <<<<  KARTA SIM >>>> */
 
 
-			String simSN = telManager.getSimSerialNumber();
+			String simSN = telManager.getSimSerialNumber();											// numer seryjny karty SIM
+			String simOperatorNazwa = telManager.getSimOperatorName();								// Name Service Provider (SPN)
+			String simOperator = telManager.getSimOperator();										// MCC + MNC od dostawcy karty SIM
+			int simStatus = telManager.getSimState();												// Zwraca stałą wskazującą stan karty SIM domyślne.
+			String simIso = telManager.getSimCountryIso();											// Zwraca kod kraju odpowiednik ISO dla kodu kraju dostawcy SIM.
 
 
-			String simOperatorNazwa = telManager.getSimOperatorName();
-
-
-			String simOperator = telManager.getSimOperator();
       
-      /* <<<<  DANE URZADZENIA >>>> */
+      /* <<<<  DANE URZADZENIA - SYSTEM >>>> */
 
 			String idUrzadzenia = telManager.getDeviceId();
       
@@ -563,17 +560,21 @@ public class RaportZbiorczy extends Activity {
 			//BluetoothManager bManager = (BluetoothManager) getSystemService(BLUETOOTH_SERVICE);
 			//BluetoothAdapter bAdapter = bManager.getAdapter();
 
-			//String bAdress = bAdapter.getAddress();
-			//String bNazwa = bAdapter.getName();
+
+
 
 		//	Set<BluetoothDevice> bondedDevice = bAdapter.getBondedDevices();
 
 
-			TextView textBluetoothAdress = (TextView) findViewById(R.id.textBluetoothAdress);
-			TextView textBluetoothNazwa = (TextView) findViewById(R.id.textBluetoothNazwa);
-			TextView textBluetoothStan = (TextView) findViewById(R.id.textBluetoothStan);
-			TextView textBluetoothPair = (TextView) findViewById(R.id.textBluetoothPair);
-			TextView textBluetoothConected = (TextView) findViewById(R.id.textBluetoothConnected);
+		//  String bAdress = bAdapter.getAddress(); 												// mac adres karty Bluetouch
+			TextView textBluetoothAdress = (TextView) findViewById(R.id.textBluetoothAdress);		// pole - mac adres karty Bluetouch
+
+			TextView textBluetoothNazwa = (TextView) findViewById(R.id.textBluetoothNazwa);			// pole - nazwa Bluetouch
+		//  String bNazwa = bAdapter.getName();														// nazwa Bluetouch
+
+			TextView textBluetoothStan = (TextView) findViewById(R.id.textBluetoothStan);			// pole - stan karty Bluetouch
+			TextView textBluetoothPair = (TextView) findViewById(R.id.textBluetoothPair);			// pole - urzadzenie sparowane
+			TextView textBluetoothConected = (TextView) findViewById(R.id.textBluetoothConnected);	// pole - urzadzenie polaczone
 
 			//textBluetoothAdress.setText(bAdress);
 			//textBluetoothNazwa.setText(bNazwa);
@@ -587,7 +588,14 @@ public class RaportZbiorczy extends Activity {
 			else
 					textBluetoothStan.setText("WYŁĄCZONY");  */
 			//TextView textBluetoothPair
+
+
       /* <<<<  BATERIA >>>> */
+		// poziom naładowania
+		// napiecie zasilania
+		// status
+		// prad ladowania
+
   	
   	
   	
@@ -595,11 +603,16 @@ public class RaportZbiorczy extends Activity {
       /* <<<<  GPS >>>> */
 
 		GPS gps = new GPS();
-//		double dlugosc = gps.podajDlugosc();
+//		double dlugosc = gps.podajDlugosc(); 		// dlugosc geograficzna
+													// szerokosc geograficzna
+
 
 
 		TextView text_dlugosc_geograficzna = (TextView) findViewById(R.id.textGPS_DLUGOSC);
 		//text_dlugosc_geograficzna.setText(""+dlugosc);
+
+		/* <<<<  NFC >>>> */
+		/* <<<<  GLOSNOSC OTOCZENIA >>>> */
 
 
 

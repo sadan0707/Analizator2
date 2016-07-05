@@ -380,7 +380,7 @@ int id action_menu_presenter 0x7f0b0002
 int id action_mode_bar 0x7f0b003a
 int id action_mode_bar_stub 0x7f0b0039
 int id action_mode_close_button 0x7f0b002d
-int id action_settings 0x7f0b0113
+int id action_settings 0x7f0b0111
 int id activity_chooser_view_content 0x7f0b002e
 int id adjust_height 0x7f0b0011
 int id adjust_width 0x7f0b0012
@@ -453,7 +453,7 @@ int id odczytxZyroskop 0x7f0b00b6
 int id odczytyZyroskop 0x7f0b00b9
 int id odczytzZyroskop 0x7f0b00bc
 int id operatorName 0x7f0b00e6
-int id pager 0x7f0b010d
+int id pager 0x7f0b010c
 int id progress_circular 0x7f0b003f
 int id progress_horizontal 0x7f0b0040
 int id przcisk_gps 0x7f0b0088
@@ -489,9 +489,9 @@ int id shortcut 0x7f0b0037
 int id showCustom 0x7f0b0009
 int id showHome 0x7f0b000a
 int id showTitle 0x7f0b000b
-int id siec_button 0x7f0b0110
-int id siec_pole 0x7f0b010f
-int id siec_text 0x7f0b0111
+int id siec_button 0x7f0b010f
+int id siec_pole 0x7f0b010e
+int id siec_text 0x7f0b0110
 int id silaSygnaluGSM 0x7f0b00d7
 int id silaSygnaluLTE 0x7f0b00e3
 int id split_action_bar 0x7f0b0027
@@ -617,10 +617,8 @@ int id textView65 0x7f0b00f4
 int id textView66 0x7f0b00f5
 int id textView67 0x7f0b00f0
 int id textView68 0x7f0b00f1
-int id textView69 0x7f0b010c
 int id textView7 0x7f0b00b0
-int id textView70 0x7f0b010e
-int id textView71 0x7f0b0112
+int id textView70 0x7f0b010d
 int id textView8 0x7f0b0098
 int id textView9 0x7f0b009f
 int id title 0x7f0b0034

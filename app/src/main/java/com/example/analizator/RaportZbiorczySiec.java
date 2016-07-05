@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -18,11 +19,11 @@ public class RaportZbiorczySiec extends Fragment {
 
         View rootView = inflater.inflate(R.layout.activity_zbiorczy_siec, container, false);
 
-//        Button button = (Button) getView().findViewById(R.id.siec_button);
-        final TextView text = (TextView) getView().findViewById(R.id.siec_text);
-        final EditText pole = (EditText) getView().findViewById(R.id.siec_pole);
+        Button button = (Button) rootView.findViewById(R.id.siec_button);
+        final TextView text = (TextView) rootView.findViewById(R.id.siec_text);
+        final EditText pole = (EditText) rootView.findViewById(R.id.siec_pole);
 
-        /* button.setOnClickListener(new View.OnClickListener(){
+        button.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v) {
@@ -32,7 +33,7 @@ public class RaportZbiorczySiec extends Fragment {
             }
         });
 
-        */
+
 
 
         return rootView;

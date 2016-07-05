@@ -1122,7 +1122,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0b003a;
         public static final int action_mode_bar_stub=0x7f0b0039;
         public static final int action_mode_close_button=0x7f0b002d;
-        public static final int action_settings=0x7f0b0113;
+        public static final int action_settings=0x7f0b0111;
         public static final int activity_chooser_view_content=0x7f0b002e;
         public static final int adjust_height=0x7f0b0011;
         public static final int adjust_width=0x7f0b0012;
@@ -1195,7 +1195,7 @@ containing a value of this type.
         public static final int odczytyZyroskop=0x7f0b00b9;
         public static final int odczytzZyroskop=0x7f0b00bc;
         public static final int operatorName=0x7f0b00e6;
-        public static final int pager=0x7f0b010d;
+        public static final int pager=0x7f0b010c;
         public static final int progress_circular=0x7f0b003f;
         public static final int progress_horizontal=0x7f0b0040;
         public static final int przcisk_gps=0x7f0b0088;
@@ -1231,9 +1231,9 @@ containing a value of this type.
         public static final int showCustom=0x7f0b0009;
         public static final int showHome=0x7f0b000a;
         public static final int showTitle=0x7f0b000b;
-        public static final int siec_button=0x7f0b0110;
-        public static final int siec_pole=0x7f0b010f;
-        public static final int siec_text=0x7f0b0111;
+        public static final int siec_button=0x7f0b010f;
+        public static final int siec_pole=0x7f0b010e;
+        public static final int siec_text=0x7f0b0110;
         public static final int silaSygnaluGSM=0x7f0b00d7;
         public static final int silaSygnaluLTE=0x7f0b00e3;
         public static final int split_action_bar=0x7f0b0027;
@@ -1359,10 +1359,8 @@ containing a value of this type.
         public static final int textView66=0x7f0b00f5;
         public static final int textView67=0x7f0b00f0;
         public static final int textView68=0x7f0b00f1;
-        public static final int textView69=0x7f0b010c;
         public static final int textView7=0x7f0b00b0;
-        public static final int textView70=0x7f0b010e;
-        public static final int textView71=0x7f0b0112;
+        public static final int textView70=0x7f0b010d;
         public static final int textView8=0x7f0b0098;
         public static final int textView9=0x7f0b009f;
         public static final int title=0x7f0b0034;
