@@ -435,6 +435,7 @@ public class RaportZbiorczy extends Activity {
 		TextView TextnazwaOperatora = (TextView) findViewById(R.id.operatorName);
 		TextnazwaOperatora.setText(nazwaOperatora);
 
+
 		int typSieci = telManager.getNetworkType();
 		TextView TextTypSieci = (TextView) findViewById(R.id.networkType);
 		TextTypSieci.setText(typSieci + "");
@@ -551,8 +552,13 @@ public class RaportZbiorczy extends Activity {
       
       /* <<<<  DANE URZADZENIA - SYSTEM >>>> */
 
-			String idUrzadzenia = telManager.getDeviceId();
-      
+			String idUrzadzenia = telManager.getDeviceId();											// Nazwa urzadzenia
+			String wersjaSoftwareUrzadzenia = telManager.getDeviceSoftwareVersion();				// Wersja Softwaru
+		//	String getGraupLevel1();
+		//	String getLine1Number();
+		//	String MmsUAProfUrl();
+		//	String MmsUserAgent();
+
       /* <<<<  WIFI >>>> */
       
       /* <<<<  BLUETOUCH >>>> */

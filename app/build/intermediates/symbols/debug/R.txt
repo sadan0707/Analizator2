@@ -4,7 +4,14 @@ int anim abc_slide_in_bottom 0x7f040002
 int anim abc_slide_in_top 0x7f040003
 int anim abc_slide_out_bottom 0x7f040004
 int anim abc_slide_out_top 0x7f040005
-int anim rotacja 0x7f040006
+int anim fade_in 0x7f040006
+int anim fade_out 0x7f040007
+int anim hyperspace_jump 0x7f040008
+int anim move 0x7f040009
+int anim rotacja 0x7f04000a
+int anim sequential_anim 0x7f04000b
+int anim slide_up 0x7f04000c
+int anim together_animation 0x7f04000d
 int attr actionBarDivider 0x7f010000
 int attr actionBarItemBackground 0x7f010001
 int attr actionBarSize 0x7f010002

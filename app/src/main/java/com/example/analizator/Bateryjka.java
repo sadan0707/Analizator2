@@ -9,6 +9,7 @@ import android.content.IntentFilter;
 import android.os.BatteryManager;
 import android.os.Bundle;
 import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
@@ -47,8 +48,18 @@ public class Bateryjka  extends Activity {
 				animacja_rotacja_prawo.setDuration(2000);
 
 
-				bateryjka.startAnimation(animacja_rotacja_lewo);
-				strzalka.startAnimation(animacja_rotacja_prawo);
+				//bateryjka.startAnimation(animacja_rotacja_lewo);
+				//strzalka.startAnimation(animacja_rotacja_prawo);
+
+				Animation hyperspaceJumpAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.hyperspace_jump);
+				Animation fade_in = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
+				Animation fade_out = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_out);
+				Animation move = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.move);
+				Animation slide_up = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_up);
+				Animation sequential_anim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.sequential_anim);
+				Animation together_animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.together_animation);
+
+				bateryjka.startAnimation(sequential_anim);
 
 
 
