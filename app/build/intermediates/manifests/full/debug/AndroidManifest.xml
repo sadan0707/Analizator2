@@ -50,13 +50,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.analizator.RaportZbiorczySiec"
-            android:label="@string/name_zbiorczy" >
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.example.analizator.RaportZbiorczy"
             android:label="@string/name_zbiorczy" >
             <intent-filter>
@@ -181,9 +174,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.analizator.MojSystem"
+            android:name="com.example.analizator.Urzadzenie"
             android:icon="@drawable/system2_xxxhdpi"
-            android:label="@string/name_system"
+            android:label="@string/name_urzadzenie"
             android:theme="@android:style/Theme.Holo" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />

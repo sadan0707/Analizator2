@@ -52,13 +52,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".RaportZbiorczySiec"
-            android:label="@string/name_zbiorczy" >
-            <intent-filter>
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <activity
             android:name=".RaportZbiorczy"
@@ -188,10 +181,10 @@
 
             </intent-filter>
         </activity>
-        <activity android:name=".MojSystem"
+        <activity android:name=".Urzadzenie"
             android:theme="@android:style/Theme.Holo"
             android:icon="@drawable/system2_xxxhdpi"
-            android:label="@string/name_system">
+            android:label="@string/name_urzadzenie">
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER"/>
 

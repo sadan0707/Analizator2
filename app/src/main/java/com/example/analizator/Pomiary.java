@@ -133,10 +133,7 @@ public class Pomiary extends Activity {
 		startActivity(intent);
 	}
 
-	public void przycisk_system(View view) {
-		Intent intent = new Intent(this, MojSystem.class);
-		startActivity(intent);
-	}
+
 
 	public void przycisk_nfc(View view) {
 		Intent intent = new Intent(this, NFC.class);
@@ -150,6 +147,11 @@ public class Pomiary extends Activity {
 
 	public void przycisk_glosnosc(View view) {
 		Intent intent = new Intent(this, Glosnosc.class);
+		startActivity(intent);
+	}
+
+	public void przycisk_system(View view) {
+		Intent intent = new Intent(this, Urzadzenie.class);
 		startActivity(intent);
 	}
 }

@@ -18,7 +18,7 @@ public class RaportZbiorczyGlowny extends FragmentActivity implements ActionBar.
     private String[] zakladki = {
             "Czujniki",
             "Sieć",
-            "System"
+            "Urzadzenie"
     };
 
     @Override

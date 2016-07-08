@@ -25,6 +25,7 @@
     <string name="name_bluetooth">Bluetooth</string>
     <string name="text_dostepnosc_czujnika">Dostępność czujnika:</string>
     <string name="odczyt">Odczyt:</string>
+    <string name="name_urzadzenie">Urzadzenie</string>
 
 
 </resources>

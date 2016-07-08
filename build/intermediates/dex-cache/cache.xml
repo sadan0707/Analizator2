@@ -9,46 +9,18 @@
         <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-0c1f144d737bc36c3a0d6c7483b32aa1f3f78949.jar" />
     </item>
     <item
-        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
-        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-ea6ee8508af2093ff32a08844962233ab46b84bf.jar" />
-    </item>
-    <item
-        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-93db2a493aea6666b01503359d43ff1d20c23b0f.jar" />
-    </item>
-    <item
-        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-1e49b557da102e5ef09f30d50061c7ee10a0d539.jar" />
-    </item>
-    <item
-        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-3c8337007d5f4c93936a64a8c43f1093a9df5698.jar" />
-    </item>
-    <item
-        jar="C:\Users\krzysiek\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-05119aa4340e0ae676da60b2c99e3329a2a7394d.jar" />
-    </item>
-    <item
         jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
         <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-d7d18a4bd3a1febf7e6d3e2a6790106ca89867d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-ea6ee8508af2093ff32a08844962233ab46b84bf.jar" />
     </item>
     <item
         jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
@@ -58,11 +30,39 @@
         <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-51eb3a936766cba9808a4637fad1e00d17e230cb.jar" />
     </item>
     <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-93db2a493aea6666b01503359d43ff1d20c23b0f.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-3c8337007d5f4c93936a64a8c43f1093a9df5698.jar" />
+    </item>
+    <item
         jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
         <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-45d9ebe5e7928d0ef1b1ccb716ed1076152e4363.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-05119aa4340e0ae676da60b2c99e3329a2a7394d.jar" />
+    </item>
+    <item
+        jar="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\krzysiek\StudioProjects\Analizator2\app\build\intermediates\pre-dexed\debug\classes-1e49b557da102e5ef09f30d50061c7ee10a0d539.jar" />
     </item>
 
 </items>
