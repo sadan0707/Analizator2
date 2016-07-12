@@ -31,7 +31,13 @@ public class Urzadzenie extends Activity {
         text_simOperatorNazwa.setText(simOperatorNazwa);
 
         String simOperator = telManager.getSimOperator();										// MCC + MNC od dostawcy karty SIM
+        TextView text_simOperator = (TextView) findViewById(R.id.text_simOperator);
+        text_simOperator.setText(simOperator);
+
         int simStatus = telManager.getSimState();												// Zwraca stałą wskazującą stan karty SIM domyślne.
+        TextView text_simStatus = (TextView) findViewById(R.id.text_simStatus);
+        text_simStatus.setText(""+simStatus);
+
         String simIso = telManager.getSimCountryIso();											// Zwraca kod kraju odpowiednik ISO dla kodu kraju dostawcy SIM.
 
         DeviceAdminReceiver deviceAdminReceiver = new DeviceAdminReceiver();
